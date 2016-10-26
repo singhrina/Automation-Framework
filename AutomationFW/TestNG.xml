@@ -3,7 +3,7 @@
     <test name="Functional Test">
         <classes>
             <class name="com.test.HomePageTest"></class>
-            <class name = "com.test.LoginPageTest"></class>    
+           <class name = "com.test.LoginPageTest"></class>
         </classes>
     </test>
 </suite>

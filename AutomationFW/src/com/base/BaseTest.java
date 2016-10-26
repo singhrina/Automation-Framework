@@ -1,8 +1,7 @@
 package com.base;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.testng.annotations.AfterSuite;
+
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import com.util.Configuration;
@@ -21,15 +20,13 @@ public abstract class BaseTest {
 	@BeforeSuite
 	public void setup()
 	{
-		WebDriver d = new FirefoxDriver();
-        d.getCurrentUrl();
-	this.driver = new PageDriver(config);
-	Locators.getElement();
+		this.driver = new PageDriver(config);
+     	Locators.getElement();
 	} 
 	
-	/*@AfterSuite
+	@AfterSuite
 	public void quit()
 	{
 		driver.quit();
-	}*/
+	}
 	}

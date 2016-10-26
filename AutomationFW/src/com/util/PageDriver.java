@@ -22,7 +22,7 @@ public class PageDriver {
 		String browser = configuration.BROWSER; 
 		switch (browser)
 		{
-	     case "firefox":
+	    case "firefox":
 			driver = startFirefox();
 			break;
 		case "chrome":
@@ -45,12 +45,12 @@ public class PageDriver {
 	}
 	public WebDriver startChrome()
 	{
-		System.setProperty("webDriver.chrome.driver", "lib/chromedriver.exe"); 
+		System.setProperty("webDriver.chrome.driver", "chromedriver.exe"); 
 		return new ChromeDriver();
 	}
 	public WebDriver startIE()
 	{
-		System.setProperty("webDriver.IE.driver", "lib/IEDriverServer.exe"); 
+		System.setProperty("webDriver.IE.driver", "IEDriverServer.exe"); 
 		return new InternetExplorerDriver();
 	}
 	/*public WebDriver startHtml()

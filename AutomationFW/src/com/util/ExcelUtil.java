@@ -18,7 +18,8 @@ public class ExcelUtil {
 	try {
 		FileInputStream fin = new FileInputStream(new File("userdata.xlsx"));//to read a excel file
 		XSSFWorkbook book = new XSSFWorkbook(fin);// excel sheet read into xssfworkbook
-		 Sheet sheet = book.getSheetAt(0);    // to get the sheet from it
+		 Sheet sheet = book.getSheetAt(0); // to get the sheet from it
+		 book.close();
 		int rows = sheet.getLastRowNum();
 		data = new Object[rows][2];
 		int count = 0;

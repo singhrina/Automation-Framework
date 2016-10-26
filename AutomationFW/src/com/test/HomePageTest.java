@@ -27,8 +27,8 @@ public class HomePageTest extends BaseTest{
 	@Test
 	public void TestLoginClick()
 	{
-	 String actual = HP.ClickLoginButton();
-	 assertEquals("http://www.whiteboxqa.com/login.php", actual);
+	 String actual =HP.ClickLoginButton();
+	 assertEquals("http://www.whiteboxqa.com/login.php", actual );
 	}
 	@AfterClass
 	public void  quit()

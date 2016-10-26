@@ -30,7 +30,7 @@ public class LoginPageTest extends BaseTest{
     	
     	AssertJUnit.assertTrue(LP.parformLogin(uname, pws ));
     }
-    @AfterClass
+   @AfterClass
 	public void  quit()
 	{
 		driver.quit();
