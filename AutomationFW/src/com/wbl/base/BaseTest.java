@@ -1,12 +1,12 @@
-package com.base;
+package com.wbl.base;
 
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.util.Configuration;
-import com.util.Locators;
-import com.util.PageDriver;
+import com.wbl.helper.Configuration;
+import com.wbl.helper.Locators;
+import com.wbl.helper.PageDriver;
 
 public abstract class BaseTest {
 	public PageDriver  driver;

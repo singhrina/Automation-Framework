@@ -1,8 +1,9 @@
-package com.pages;
+package com.wbl.pages;
 import java.util.List;
 import org.openqa.selenium.WebElement;
-import com.base.BasePage;
-import com.util.PageDriver;
+
+import com.wbl.base.BasePage;
+import com.wbl.helper.PageDriver;
 
 public class HomePage extends BasePage {
 	String socialLinks = "css_social-links";

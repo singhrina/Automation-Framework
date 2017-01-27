@@ -1,13 +1,14 @@
-package com.test;
+package com.wbl.test;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.AssertJUnit;
 import org.testng.annotations.DataProvider;
-import com.base.BaseTest;
-import com.pages.LoginPage;
-import com.util.ExcelUtil;
+
+import com.wbl.base.BaseTest;
+import com.wbl.helper.ExcelUtil;
+import com.wbl.pages.LoginPage;
 
 public class LoginPageTest extends BaseTest{
 	

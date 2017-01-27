@@ -1,11 +1,11 @@
-package com.test;
+package com.wbl.test;
 import static org.testng.AssertJUnit.assertEquals;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import com.base.BaseTest;
-//HomePageTest class to write the test cases for HomePage class 
-import com.pages.HomePage;
+
+import com.wbl.base.BaseTest;
+import com.wbl.pages.HomePage;
 
 public class HomePageTest extends BaseTest{
 

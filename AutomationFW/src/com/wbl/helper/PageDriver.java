@@ -1,4 +1,4 @@
-package com.util;
+package com.wbl.helper;
 
 import java.util.List;
 import org.openqa.selenium.WebDriver;

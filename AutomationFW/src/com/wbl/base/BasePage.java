@@ -1,6 +1,6 @@
-package com.base;
+package com.wbl.base;
 
-import com.util.PageDriver;
+import com.wbl.helper.PageDriver;
 
 public abstract class BasePage {
 	  public PageDriver  driver;

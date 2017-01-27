@@ -1,7 +1,7 @@
-package com.pages;
+package com.wbl.pages;
 
-import com.base.BasePage;
-import com.util.PageDriver;
+import com.wbl.base.BasePage;
+import com.wbl.helper.PageDriver;
 
 public class LoginPage extends BasePage {
     String user = "id_username";
